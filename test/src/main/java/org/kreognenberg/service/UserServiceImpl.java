@@ -1,7 +1,9 @@
 package org.kreognenberg.service;
 import org.kreognenberg.model.User;
 import java.util.*;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImpl implements UserService {
     HashMap<Integer, User> users = new HashMap<Integer, User>();
 
